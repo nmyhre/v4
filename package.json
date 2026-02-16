@@ -11,12 +11,15 @@
     "gatsby"
   ],
   "license": "MIT",
+  "engines": {
+    "node": "14.16.0"
+  },
   "browserslist": "> 0.25%, not dead",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run develop",
+    "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "prepare": "husky install",
